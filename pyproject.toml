@@ -22,7 +22,7 @@ dependencies = [
 ]
 
 # Optional: authors, license
-authors = [{ name = "Sunny Savita" }]
+authors = [{ name = "Rajesh R" }]
 license = { text = "Proprietary" }
 
 [tool.setuptools.packages.find]
@@ -30,6 +30,8 @@ where = ["research_and_analyst"]
 
 [tool.uv.workspace]
 members = [
+    ".",
+    ".",
     ".",
     ".",
     ".",
