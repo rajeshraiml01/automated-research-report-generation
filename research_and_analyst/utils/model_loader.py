@@ -9,7 +9,7 @@ from langchain_groq import ChatGroq
 from logger import GLOBAL_LOGGER as log
 from exceptions.custom_exception import ResearchAnalystException
 import asyncio
-
+load_dotenv()
 
 class ApiKeyManager:
     def __init__(self):
